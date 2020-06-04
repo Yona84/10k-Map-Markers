@@ -26,6 +26,7 @@ cd 10k-Map-Markers
  node --inspect server.js
  
 ./client yarn start
+
 This should open a browser to http://localhost:3000.
 
 # App Configuration
