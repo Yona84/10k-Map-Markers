@@ -8,13 +8,17 @@ The application uses dead simple node.js mock server to render 10k markers (cars
 You will need the following things properly installed on your computer.
 
 Git
+
 Node.js 
 
 
 # Installation
 git clone https://github.com/Yona84/10k-Map-Markers.git
+
 cd 10k-Map-Markers
+
  yarn install
+ 
 ./client yarn install
 
 # Running / Development
