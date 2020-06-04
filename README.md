@@ -29,5 +29,12 @@ cd 10k-Map-Markers
 
 This should open a browser to http://localhost:3000.
 
+# Testing
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
 # App Configuration
 Grab API Google map key and replace the value in the ./utils/utils.js file.
