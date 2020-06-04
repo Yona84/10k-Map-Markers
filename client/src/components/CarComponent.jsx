@@ -23,6 +23,4 @@ const styles = {
   })
 };
 
-CarComponent.propTypes = propTypes;
-
 export default CarComponent;
