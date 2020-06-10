@@ -23,6 +23,9 @@ const App = () => {
       <div className={styles.root}>
         <div className={styles.info}>
           <MaterialTable
+            options={{
+              pageSize: 10
+            }}
             title={'Cars'}
             style={{ width: '100%', padding: 20 }}
             icons={tableIcons}
@@ -49,8 +52,6 @@ const styles = {
     height: '100vh',
     width: '100vw',
     display: 'flex',
-    flexDirection: 'column',
-    backgroundColor: '#1d1d1d',
   }),
   info: css({
     width: '100%',
