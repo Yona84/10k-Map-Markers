@@ -42,7 +42,7 @@ const MapContainer = ({ data, lat, lng, setData }) => {
         parseFloat(car.location.lat)
       ]
     }
-  } ));
+  }));
 
   const { clusters, supercluster } = useSupercluster({
     points,
